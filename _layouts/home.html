@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+<div class="wrapper">
+  <div class="profile-card js-profile-card">
+    <div class="profile-card__img">
+      <img src="../assets/img/me.png" alt="profile card">
+    </div>
+
+    <div class="profile-card__cnt js-profile-cnt">
+      <div class="profile-card__name">Your Website</div>
+      <div class="profile-card__txt">{{site.bio_text}}</div>
+      <div class="profile-card-loc">
+        <span class="profile-card-loc__icon">
+          <svg class="icon"><use xlink:href="#icon-location"></use></svg>
+        </span>
+
+        <span class="profile-card-loc__txt">
+          {{site.location}}
+        </span>
+      </div>
+
+
+      <div class="profile-card-social">
+      
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ex arcu, convallis id consectetur quis, volutpat in lacus. Ut a leo nisi. Pellentesque congue sodales laoreet. Praesent vehicula eros et tempor elementum. Nullam sit amet libero varius, semper turpis in, sodales diam. Ut pulvinar malesuada orci. Praesent porta posuere pulvinar. Quisque nec lacus at odio elementum commodo sit amet id mauris. Integer posuere hendrerit cursus. Sed faucibus sit amet tortor sed varius. Nulla mauris elit, pretium et consequat hendrerit, porta sed lectus. Ut sed placerat magna. Duis nec efficitur quam, in egestas eros. Integer iaculis aliquam fermentum. Ut risus tortor, sodales ut pellentesque ac, egestas pulvinar leo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+      </div>
+
+			<footer class="footer">
+				{% include social-icons.html %}
+				<div class="footer-description"><a href="{{ site.github.url }}/">{{ site.title }} </a></div>
+			</footer>
+
+  	  </div>
+    </div>
+  </div>
+</div>
+
+
