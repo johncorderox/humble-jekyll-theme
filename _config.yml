@@ -4,13 +4,17 @@ full_name:
 email: johncorderox@gmail.com
 
 location: Tokyo, Japan
-bio_text: Coffee Lover, Food Blogger, Graphic Artist Pellentesque congue sodales laoreet. Praesent vehicula eros et tempor elementum.
-          Nullam sit amet libero varius, semper turpis in, sodales diam. Ut pulvinar malesuada orci. Praesent porta posuere pulvinar. Quisque nec lacus at odio elementum commodo sit amet id mauris. Integer posuere hendrerit cursus. Sed faucibus sit amet tortor sed varius. 
+bio_text: Coffee Lover, Food Blogger, Graphic Artist
+bio_description: 
 
 linkedin: 
 github: 
 twitter:
 
+# Build settings
+markdown:            kramdown
+highlighter:         rouge
+permalink:           /:title
 plugins:             [jekyll-sitemap, jekyll-seo-tag]
 
 
