@@ -1,15 +1,17 @@
 # Site settings
 title_text: My Website
-full_name: 
 email: johncorderox@gmail.com
 
-location: Tokyo, Japan
-bio_text: Coffee Lover, Food Blogger, Graphic Artist
+location: Austin, Texas
+bio_text: Engineer, Dog Lover, Coffee Enthusiast
 bio_description: 
-
-linkedin: 
-github: 
-twitter:
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+  Etiam ex arcu, convallis id consectetur quis, volutpat in lacus. 
+  Ut a leo nisi. Pellentesque congue sodales laoreet. 
+  Praesent vehicula eros et tempor elementum. Nullam sit amet libero varius, semper turpis in, sodales diam. 
+  Ut pulvinar malesuada orci. Praesent porta posuere pulvinar. Quisque nec lacus at odio elementum commodo sit amet id mauris.
+  Integer posuere hendrerit cursus. Sed faucibus sit amet tortor sed varius. Nulla mauris elit, pretium et consequat hendrerit,
+  porta sed lectus. Ut sed placerat magna. Duis nec efficitur quam, in egestas eros. 
 
 # Build settings
 markdown:            kramdown
@@ -21,10 +23,9 @@ plugins:             [jekyll-sitemap, jekyll-seo-tag]
 # If you are not using Google Analytics, please change 'google-ID' to an empty string
 google-ID: ''
 
-
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
-- {icon: 'github',     link: 'https://www.github.com/lenpaul'}
-- {icon: 'twitter',    link: 'https://twitter.com/paululele'}
-- {icon: 'linkedin',   link: 'http://www.linkedin.com/in/lenpaul/'}
-- {icon: 'envelope',   link: 'mailto:l.nguyen.paul@gmail.com'}
+- {icon: 'github',     link: 'https://www.github.com/'}
+- {icon: 'twitter',    link: 'https://twitter.com/'}
+- {icon: 'linkedin',   link: 'http://www.linkedin.com'}
+- {icon: 'envelope',   link: 'mailto:your_email_here@gmail.com'}
