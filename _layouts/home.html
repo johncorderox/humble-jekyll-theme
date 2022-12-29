@@ -3,35 +3,28 @@ layout: default
 ---
 
 <div class="wrapper">
-  <div class="profile-card js-profile-card">
-    <div class="profile-card__img">
-      <img src="../assets/img/me.png" alt="profile card">
+  <div class="profile-card">
+    <div class="profile-img">
+      <img src="../assets/img/me.png" alt="profile photo">
     </div>
-
-    <div class="profile-card__cnt js-profile-cnt">
-      <div class="profile-card__name">Your Website</div>
-      <div class="profile-card__txt">{{site.bio_text}}</div>
-      <div class="profile-card-loc">
-        <span class="profile-card-loc__icon">
-          <svg class="icon"><use xlink:href="#icon-location"></use></svg>
-        </span>
-
-        <span class="profile-card-loc__txt">
-          {{site.location}}
-        </span>
-      </div>
-
-
-      <div class="profile-card-social">
-      
-        {{site.bio_description}}
-      </div>
-
-			<footer class="footer">
-				{% include social-icons.html %}
-				<div class="footer-description"><a href="{{ site.github.url }}/">{{ site.title }} </a></div>
-			</footer>
-
+    <div class="profile-container">
+      <div class="profile-name">Your Website</div>
+       <div class="profile-txt">{{site.bio_text}}</div>
+        <div class="profile-card-loc">
+          <span class="profile-icon">
+            <svg class="icon"><use xlink:href="#icon-location"></use></svg>
+          </span>
+          <span class="profile-location">
+            {{site.location}}
+          </span>
+        </div>
+        <div class="profile-card-social">
+          {{site.bio_description}}
+        </div>
+        <footer class="footer">
+          {% include social-icons.html %}
+          <div class="footer-description"><a href="{{ site.github.url }}/">{{ site.title }} </a></div>
+        </footer>
   	  </div>
     </div>
   </div>
