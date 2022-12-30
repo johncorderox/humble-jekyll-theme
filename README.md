@@ -1,3 +1,3 @@
 # Humble-Jekyll-Theme
-![My Image](demo.png)
+![demo](/demo.png)
 lenpaul
