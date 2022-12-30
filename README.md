@@ -1,4 +1,3 @@
-#todo 
-
-favicon
-credit lenpaul
+# Humble-Jekyll-Theme
+![My Image](demo.png)
+lenpaul
